@@ -23,6 +23,7 @@ public class SpawnManager : NetworkBehaviour
         {
             GameObject tempLilyPad =Instantiate(lilyPad);
             NetworkServer.Spawn(tempLilyPad);
+       
         }
         
     }
