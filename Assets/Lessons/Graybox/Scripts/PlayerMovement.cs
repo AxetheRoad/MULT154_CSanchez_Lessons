@@ -9,7 +9,7 @@ public class PlayerMovement : NetworkBehaviour
     private Vector3 direction = Vector3.zero;
     public float speed = 10.0f;
     public GameObject[] spawnPoints = null;
-    
+
     // Start is called before the first frame update
     void Start()
     {

@@ -5,10 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
   - enabled: 1
-    path: Assets/Lessons/Graybox/Scene/Lesson.unity
+    path: Assets/Lessons/Graybox/Scene/RiverGame.unity
     guid: f91cac28b6f5c01438a832a21783d55a
+  - enabled: 1
+    path: Assets/Lessons/Graybox/Scene/MainMenu.unity
+    guid: 4982ffc289b9d864284e897007b59ca8
+  - enabled: 1
+    path: Assets/Lessons/BunnyGame/Scenes/ForestLevel.unity
+    guid: 637ab9b94d66249418eba3cdbff584d4
+  - enabled: 1
+    path: Assets/Lessons/Graybox/Scene/EndScene.unity
+    guid: deb12e46d8938b64c895c0cb118ec89b
   m_configObjects: {}

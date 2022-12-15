@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2007908505086599656}
   - component: {fileID: 4090193052916171070}
   - component: {fileID: 6507004438164328399}
+  - component: {fileID: 2626570030914964516}
   m_Layer: 0
   m_Name: TallForestPine
   m_TagString: Untagged
@@ -69,8 +70,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b20ecaca3c3dca1489e76a6e2bb33193, type: 2}
-  - {fileID: 2100000, guid: 8bed5f5484981b74d8a6920466e8e889, type: 2}
+  - {fileID: 3950806298693566800}
+  - {fileID: 715699144628689999}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,7 +84,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -92,6 +93,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2626570030914964516
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6636297760291628491}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1704326, y: 12.973544, z: 1.4010112}
+  m_Center: {x: -0.050667524, y: 6.486772, z: 0.07583198}
 --- !u!114 &-1692742275239900117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,7 +119,7 @@ MonoBehaviour:
   m_Name: Tree Data
   m_EditorClassIdentifier: 
   _uniqueID: 2128
-  materialHash: e0cbf0a02aee81f7a11d82e05446e4156291456
+  materialHash: e7260856dc8dd420ab311f091c55b4526291456
   root:
     _uniqueID: 1
     seed: 1234
@@ -20534,7 +20548,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Optimized Leaf Material
-  m_Shader: {fileID: 10607, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 99134b1f0c27d54469a840832a28fadf, type: 3}
   m_ShaderKeywords: BACKFACENORMALMODE_MIRROR _WINDQUALITY_NONE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20802,7 +20816,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Optimized Bark Material
-  m_Shader: {fileID: 10604, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 99134b1f0c27d54469a840832a28fadf, type: 3}
   m_ShaderKeywords: BACKFACENORMALMODE_MIRROR _WINDQUALITY_NONE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
